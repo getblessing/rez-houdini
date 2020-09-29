@@ -11,6 +11,10 @@ _data = {
     "icon": "{root}/resources/icon.svg"
 }
 
+requires = [
+    "!PySide2",
+]
+
 tools = [
     "houdinifx",
 ]
