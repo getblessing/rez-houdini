@@ -46,3 +46,6 @@ def commands():
         pass
 
     env.PATH.append("{env.HOUDINI_LOCATION}/bin")
+
+    # Disable local .env file
+    env.HOUDINI_NO_ENV_FILE = "1"

@@ -46,3 +46,6 @@ def commands():
 
     env.PATH.append("{env.HOUDINI_LOCATION}/bin")
     env.PDG_USE_PDGNET = "1"
+
+    # Disable local .env file
+    env.HOUDINI_NO_ENV_FILE = "1"
